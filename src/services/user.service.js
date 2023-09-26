@@ -6,11 +6,11 @@ export const getAllUsers = async () => {
   return data;
 };
 
-// //create new user
-// export const newUser = async (body) => {
-//   const data = await User.create(body);
-//   return data;
-// };
+//create new user
+export const newUser = async (body) => {
+  const data = await User.create(body);
+  return data;
+};
 
 // //update single user
 // export const updateUser = async (_id, body) => {

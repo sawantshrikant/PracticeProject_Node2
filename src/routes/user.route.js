@@ -9,7 +9,7 @@ const router = express.Router();
 router.get('', userController.getAllUsers);    //responsible for retrieving a list of all users. 
 
 //route to create a new user
-// router.post('', newUserValidator, userController.newUser); //responsible for creating a new user
+router.post('', newUserValidator, userController.newUser); //responsible for creating a new user
 
 // // //route to get a single user by their user id
 // // router.get('/:_id', userAuth, userController.getUser);    //used to retrieve a single user by their user ID. 
