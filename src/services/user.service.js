@@ -26,14 +26,14 @@ export const updateUser = async (_id, body) => {
   return data;
 };
 
-// //delete single user
-// export const deleteUser = async (id) => {   
-//   await User.findByIdAndDelete(id);
-//   return '';                                   //After successfully deleting the user using the findByIdAndDelete method, the function returns an empty string ''. 
-// };
+//delete single user
+export const deleteUser = async (id) => {   
+  await User.findByIdAndDelete(id);
+  return '';                                   //After successfully deleting the user using the findByIdAndDelete method, the function returns an empty string ''. 
+};
 
-// //get single user
-// export const getUser = async (id) => {
-//   const data = await User.findById(id);
-//   return data;
-// };
+//get single user
+export const getUser = async (id) => {
+  const data = await User.findById(id);
+  return data;
+};

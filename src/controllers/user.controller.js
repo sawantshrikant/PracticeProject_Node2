@@ -83,18 +83,18 @@ export const updateUser = async (req, res, next) => {
 //  * @param {object} res - response object
 //  * @param {Function} next
 //  */
-// export const deleteUser = async (req, res, next) => {
-//   try {
-//     await UserService.deleteUser(req.params._id);    //use await so it wait till deleteuser operation should finish and go next //here deleteUser Function responsible for deleteuser from system and request id so we know which user need to delete
-//     res.status(HttpStatus.OK).json({                  //after successfully deleting the user, the controller sends a JSON response back to the client with a 200 OK status code (HttpStatus.OK).
-//                                                        //The response includes a JSON object with a code property set to the HTTP status code, an empty data array (since no data is being returned), and a message property indicating that the user was deleted successfully.           
-//       code: HttpStatus.OK,
-//       data: [],
-//       message: 'User deleted successfully'
-//     });
-//   } catch (error) {
-//     next(error);                                     //passes control to the next error-handling middleware or route handler in the Express.js middleware chain.
-//   }
-// };
+export const deleteUser = async (req, res, next) => {
+  try {
+    await UserService.deleteUser(req.params._id);    //use await so it wait till deleteuser operation should finish and go next //here deleteUser Function responsible for deleteuser from system and request id so we know which user need to delete
+    res.status(HttpStatus.OK).json({                  //after successfully deleting the user, the controller sends a JSON response back to the client with a 200 OK status code (HttpStatus.OK).
+                                                      //The response includes a JSON object with a code property set to the HTTP status code, an empty data array (since no data is being returned), and a message property indicating that the user was deleted successfully.           
+      code: HttpStatus.OK,
+      data: [],
+      message: 'User deleted successfully'
+    });
+  } catch (error) {
+    next(error);                                     //passes control to the next error-handling middleware or route handler in the Express.js middleware chain.
+  }
+};
 
 

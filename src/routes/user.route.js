@@ -17,7 +17,7 @@ router.post('', newUserValidator, userController.newUser); //responsible for cre
 //route to update a single user by their user id
 router.put('/:_id', userController.updateUser);        // updating a single user by their user ID.
 
-// //route to delete a single user by their user id
-// router.delete('/:_id', userController.deleteUser);  //delete a single user by their user ID
+//route to delete a single user by their user id
+router.delete('/:_id', userController.deleteUser);  //delete a single user by their user ID
 
   export default router;    //that it can be used in other parts of your application.
