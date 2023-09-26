@@ -92,3 +92,11 @@ info: ::1 - - [26/Sep/2023:11:59:23 +0000] "POST /api/v1/users HTTP/1.1" 201 221
 
 info: ::1 - - [26/Sep/2023:12:18:56 +0000] "GET /api/v1/users HTTP/1.1" 200 793 "-" "PostmanRuntime/7.33.0"
 
+info: ::1 - - [26/Sep/2023:12:26:47 +0000] "POST /api/v1/users HTTP/1.1" 201 222 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:12:40:01 +0000] "PUT /api/v1/users/6512ce0773b38d39442bc578 HTTP/1.1" 500 75 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:12:40:59 +0000] "PUT /api/v1/users/6512ce0773b38d39442bc578 HTTP/1.1" 202 213 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:12:41:09 +0000] "PUT /api/v1/users/6512ce0773b38d39442bc578 HTTP/1.1" 202 216 "-" "PostmanRuntime/7.33.0"
+
