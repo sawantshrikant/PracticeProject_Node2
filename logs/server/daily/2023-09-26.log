@@ -1,0 +1,119 @@
+info: Connected to the database. {"timestamp":"2023-09-26T05:49:03.978Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T05:51:17.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T05:51:56.569Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T05:51:56.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T05:54:25.105Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T05:54:25.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T05:54:35.292Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T05:54:35.311Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T05:57:30.755Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T05:57:30.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T06:01:09.723Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T06:01:09.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T06:02:08.433Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T06:02:08.474Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-09-26T06:03:39.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T06:28:04.963Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T06:28:04.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T06:29:59.700Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T06:29:59.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T08:33:32.199Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T08:33:32.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T08:35:27.248Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T08:35:27.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T08:40:40.919Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T08:40:40.950Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-09-26T08:40:53.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T08:41:17.669Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T08:41:17.688Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users//:_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-09-26T08:42:14.557Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/:_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-09-26T08:42:34.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T08:43:18.038Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T08:43:18.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T08:44:12.601Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T08:44:12.620Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '_id: "651152a25dcdc226d4d8febc"' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/_id:%20%22651152a25dcdc226d4d8febc%22 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-09-26T08:45:38.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T08:49:18.684Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T08:49:18.703Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-09-26T08:49:29.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T08:50:13.155Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T08:50:13.175Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '_id=651152a25dcdc226d4d8febc' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\cfp\ProjectNode2\Practice-ProjectNode2\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/_id=651152a25dcdc226d4d8febc 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-09-26T09:10:06.595Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T09:16:56.376Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T09:16:56.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T09:19:51.024Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T09:19:51.043Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T09:38:10.345Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T09:38:10.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T10:21:29.896Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T10:21:29.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T11:14:09.595Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T11:14:09.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T11:15:46.476Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T11:15:46.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T12:13:17.937Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T12:13:17.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T12:18:36.597Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T12:18:36.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-09-26T12:19:14.235Z"}
+info: Connected to the database. {"timestamp":"2023-09-26T12:19:14.256Z"}

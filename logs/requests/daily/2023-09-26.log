@@ -1,0 +1,94 @@
+info: ::1 - - [26/Sep/2023:05:53:22 +0000] "GET /api/v1/users HTTP/1.1" 200 636 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:05:54:49 +0000] "GET /api/v1/users/getall HTTP/1.1" 200 636 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:05:59:53 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:06:02:55 +0000] "GET /api/v1/users/getall HTTP/1.1" 200 636 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:06:03:39 +0000] "POST /api/v1/users HTTP/1.1" 500 85 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:06:03:53 +0000] "POST /api/v1/users HTTP/1.1" 201 212 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:06:23:00 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:06:23:14 +0000] "GET /api/v1/users/getall HTTP/1.1" 200 791 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:34:39 +0000] "GET /api/v1/users/getall HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:34:53 +0000] "GET /api/v1/users/getall HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:36:04 +0000] "GET /api/v1/users HTTP/1.1" 200 791 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:39:45 +0000] "PUT /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:40:53 +0000] "PUT /api/v1/users/id HTTP/1.1" 500 140 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:41:45 +0000] "PUT /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:42:14 +0000] "PUT /api/v1/users//:_id HTTP/1.1" 500 137 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:42:34 +0000] "PUT /api/v1/users/:_id HTTP/1.1" 500 137 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:43:29 +0000] "PUT /api/v1/users/update HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:45:38 +0000] "PUT /api/v1/users/_id:%20%22651152a25dcdc226d4d8febc%22 HTTP/1.1" 500 166 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:48:10 +0000] "GET /api/v1/users HTTP/1.1" 200 791 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:48:28 +0000] "PUT /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:49:29 +0000] "PUT /api/v1/users HTTP/1.1" 500 140 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:54:50 +0000] "PUT /api/v1/users/651152a25dcdc226d4d8febc HTTP/1.1" 202 193 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:08:55:38 +0000] "PUT /api/v1/users/651152a25dcdc226d4d8febc HTTP/1.1" 202 196 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:02:14 +0000] "PUT /api/v1/users/?_id=651152a25dcdc226d4d8febc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:02:38 +0000] "PUT /api/v1/users?_id=651152a25dcdc226d4d8febc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:03:44 +0000] "PUT /api/v1/users/?_id=651152a25dcdc226d4d8febc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:04:02 +0000] "PUT /api/v1/users/?651152a25dcdc226d4d8febc=_id HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:04:23 +0000] "PUT /api/v1/users/?id=651152a25dcdc226d4d8febc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:06:22 +0000] "PUT /api/v1/users/651152a25dcdc226d4d8febc HTTP/1.1" 202 193 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:08:34 +0000] "PUT /api/v1/users?=651152a25dcdc226d4d8febc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:09:01 +0000] "PUT /api/v1/users/?=651152a25dcdc226d4d8febc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:09:49 +0000] "PUT /api/v1/users?_id=651152a25dcdc226d4d8febc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:10:06 +0000] "PUT /api/v1/users/_id=651152a25dcdc226d4d8febc HTTP/1.1" 500 161 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:10:23 +0000] "PUT /api/v1/users/651152a25dcdc226d4d8febc HTTP/1.1" 202 193 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:15:57 +0000] "PUT /api/v1/users?_id=651152a25dcdc226d4d8febc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:16:18 +0000] "PUT /api/v1/users?id=651152a25dcdc226d4d8febc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:09:17:11 +0000] "PUT /api/v1/users/651152a25dcdc226d4d8febc HTTP/1.1" 202 196 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:10:22:16 +0000] "GET /api/v1/users HTTP/1.1" 200 791 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:10:23:24 +0000] "DELETE /api/v1/users/651184020b4e4016dc49647d HTTP/1.1" 200 60 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:10:24:15 +0000] "GET /api/v1/users HTTP/1.1" 200 635 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:11:15:22 +0000] "POST /api/v1/users HTTP/1.1" 201 212 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:11:45:47 +0000] "GET /api/v1/users HTTP/1.1" 200 790 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:11:46:52 +0000] "PUT /api/v1/users/6512bd4a12db5844cc3804ca HTTP/1.1" 202 215 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:11:52:49 +0000] "DELETE /api/v1/users/6512bd4a12db5844cc3804ca HTTP/1.1" 200 60 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:11:52:59 +0000] "GET /api/v1/users HTTP/1.1" 200 635 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:11:59:23 +0000] "POST /api/v1/users HTTP/1.1" 201 221 "-" "PostmanRuntime/7.33.0"
+
+info: ::1 - - [26/Sep/2023:12:18:56 +0000] "GET /api/v1/users HTTP/1.1" 200 793 "-" "PostmanRuntime/7.33.0"
+
