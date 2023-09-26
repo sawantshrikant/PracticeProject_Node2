@@ -12,19 +12,19 @@ export const newUser = async (body) => {
   return data;
 };
 
-// //update single user
-// export const updateUser = async (_id, body) => {
-//   const data = await User.findByIdAndUpdate(
-//     {
-//       _id
-//     },
-//     body,
-//     {
-//       new: true
-//     }
-//   );
-//   return data;
-// };
+//update single user
+export const updateUser = async (_id, body) => {
+  const data = await User.findByIdAndUpdate(
+    {
+      _id
+    },
+    body,
+    {
+      new: true
+    }
+  );
+  return data;
+};
 
 // //delete single user
 // export const deleteUser = async (id) => {   
